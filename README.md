@@ -1,43 +1,53 @@
-#📝 **Projeto AulaEscrita**
+# 📝 **Projeto AulaEscrita**
 
 Um aplicativo de lousa digital moderno, leve e offline, desenvolvido especialmente para professores de Matemática e Ciências Exatas. O AulaEscrita simula uma folha de papel ou lousa digital infinita, oferecendo ferramentas precisas para escrever equações, resolver demonstrações, importar arquivos PDF e aplicar a metodologia do Modo Copiloto utilizando mesas digitalizadoras (como a UGEE M708).
+<br>
+<br>
+> [!TIP]
+> ## ✨ **Principais Funcionalidades**
+> 
+> **Escrita de Alta Precisão:** Reconhece pressão da caneta em mesas digitalizadoras.
+> 
+> **Cursor de Software Integrado:** O lápis permanece 100% visível durante o traço com a mesa digitalizadora (bypassa a ocultação nativa do Windows Ink).
+> 
+> **Importação de PDFs e Imagens:** Adicione listas de exercícios como plano de fundo flutuante.
+> 
+> **Tipos de Papel:** Fundo branco, pautado (caderno) ou quadriculado (ideal para geometria e gráficos).
+> 
+> **Exportação Prática:** Salve o quadro final mesclado (escrita + fundo) em PNG ou PDF.
+> 
+> **Sistema de Camadas:** A borracha apaga apenas a sua escrita, mantendo os PDFs e grades intactos.
+> 
+> **Versão Desktop Offline:** Pode ser compilado como um software nativo .exe para Windows.
 
-##✨ **Principais Funcionalidades**
+<br>
+<br>
 
-**Escrita de Alta Precisão:** Reconhece pressão da caneta em mesas digitalizadoras.
+> [!NOTE]
+> ## 🛠️ Tecnologias Utilizadas
+> 
+> Este projeto foi construído utilizando um ecossistema moderno de desenvolvimento web e desktop:
+> 
+> **Node.js:** O motor de execução que permite rodar as ferramentas de desenvolvimento JavaScript no computador.
+> 
+> **React:** Biblioteca para construir a interface de usuário (menus, botões, estado do aplicativo).
+> 
+> **TypeScript:** Um superconjunto do JavaScript que adiciona tipagem, tornando o código mais seguro e previsível.
+> 
+> **Vite:** Um empacotador de código ultra-rápido que prepara o projeto para rodar no navegador.
+> 
+> **HTML5 Canvas:** Tecnologia nativa utilizada para renderizar os traços da caneta e os desenhos na tela.
+> 
+> **Electron:** Framework que transforma o código web em um programa instalável para computador (Windows .exe).
+> 
+> **Bibliotecas auxiliares:** pdfjs-dist (leitura de PDF offline), jspdf (exportação), lucide-react (ícones) e Tailwind CSS (estilização).
 
-**Cursor de Software Integrado:** O lápis permanece 100% visível durante o traço com a mesa digitalizadora (bypassa a ocultação nativa do Windows Ink).
+<br>
+<br>
 
-**Importação de PDFs e Imagens:** Adicione listas de exercícios como plano de fundo flutuante.
-
-**Tipos de Papel:** Fundo branco, pautado (caderno) ou quadriculado (ideal para geometria e gráficos).
-
-**Exportação Prática:** Salve o quadro final mesclado (escrita + fundo) em PNG ou PDF.
-
-**Sistema de Camadas:** A borracha apaga apenas a sua escrita, mantendo os PDFs e grades intactos.
-
-**Versão Desktop Offline:** Pode ser compilado como um software nativo .exe para Windows.
-
-🛠️ ## **Tecnologias Utilizadas**
-
-Este projeto foi construído utilizando um ecossistema moderno de desenvolvimento web e desktop:
-
-**Node.js:** O motor de execução que permite rodar as ferramentas de desenvolvimento JavaScript no computador.
-
-**React:** Biblioteca para construir a interface de usuário (menus, botões, estado do aplicativo).
-
-**TypeScript:** Um superconjunto do JavaScript que adiciona tipagem, tornando o código mais seguro e previsível.
-
-**Vite:** Um empacotador de código ultra-rápido que prepara o projeto para rodar no navegador.
-
-**HTML5 Canvas:** Tecnologia nativa utilizada para renderizar os traços da caneta e os desenhos na tela.
-
-**Electron:** Framework que transforma o código web em um programa instalável para computador (Windows .exe).
-
-**Bibliotecas auxiliares:** pdfjs-dist (leitura de PDF offline), jspdf (exportação), lucide-react (ícones) e Tailwind CSS (estilização).
-
-🚀 Como baixar e executar este projeto
-
+> [!IMPORTANT]
+> ## 🚀 **Como baixar e executar este projeto**
+>
 Este tutorial foi escrito para que qualquer pessoa (mesmo sem experiência avançada em programação) consiga baixar e rodar o projeto do zero.
 
 **Passo 1:** Instalar os pré-requisitos
@@ -87,3 +97,6 @@ npm run dev
 
 O terminal exibirá um link (geralmente http://localhost:5173). Segure a tecla Ctrl e clique no link para abrir o aplicativo no seu navegador.
 (Para parar o servidor, clique no terminal e pressione Ctrl + C).
+
+<br>
+<br>
