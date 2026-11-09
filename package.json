@@ -1,0 +1,44 @@
+{
+  "name": "aulaescrita",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "build:exe": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "jspdf": "^2.5.2",
+    "lucide-react": "^0.474.0",
+    "pdfjs-dist": "^4.10.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^34.0.0",
+    "electron-builder": "^25.1.8",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5"
+  },
+  "build": {
+    "appId": "com.profizaias.aulaescrita",
+    "productName": "AulaEscrita",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "main.cjs",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
