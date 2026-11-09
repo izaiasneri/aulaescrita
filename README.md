@@ -58,7 +58,7 @@ Você pode obter os arquivos do projeto de duas formas:
 
 ```bash 
 git clone https://github.com/SeuUsuario/aulaescrita.git
-
+```
 
 Passo 3: Abrir no VS Code e instalar as dependências
 
