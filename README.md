@@ -1,8 +1,8 @@
-📝 **Projeto AulaEscrita**
+📝 #**Projeto AulaEscrita**
 
 Um aplicativo de lousa digital moderno, leve e offline, desenvolvido especialmente para professores de Matemática e Ciências Exatas. O AulaEscrita simula uma folha de papel ou lousa digital infinita, oferecendo ferramentas precisas para escrever equações, resolver demonstrações, importar arquivos PDF e aplicar a metodologia do Modo Copiloto utilizando mesas digitalizadoras (como a UGEE M708).
 
-✨ **Principais Funcionalidades**
+✨ ##**Principais Funcionalidades**
 
 **Escrita de Alta Precisão:** Reconhece pressão da caneta em mesas digitalizadoras.
 
@@ -18,7 +18,7 @@ Um aplicativo de lousa digital moderno, leve e offline, desenvolvido especialmen
 
 **Versão Desktop Offline:** Pode ser compilado como um software nativo .exe para Windows.
 
-🛠️ Tecnologias Utilizadas
+🛠️ ## **Tecnologias Utilizadas**
 
 Este projeto foi construído utilizando um ecossistema moderno de desenvolvimento web e desktop:
 
