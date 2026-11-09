@@ -1,8 +1,8 @@
-📝 AulaEscrita
+📝 **Projeto AulaEscrita**
 
 Um aplicativo de lousa digital moderno, leve e offline, desenvolvido especialmente para professores de Matemática e Ciências Exatas. O AulaEscrita simula uma folha de papel ou lousa digital infinita, oferecendo ferramentas precisas para escrever equações, resolver demonstrações, importar arquivos PDF e aplicar a metodologia do Modo Copiloto utilizando mesas digitalizadoras (como a UGEE M708).
 
-✨ Principais Funcionalidades
+✨ **Principais Funcionalidades**
 
 **Escrita de Alta Precisão:** Reconhece pressão da caneta em mesas digitalizadoras.
 
@@ -60,7 +60,7 @@ Você pode obter os arquivos do projeto de duas formas:
 git clone https://github.com/SeuUsuario/aulaescrita.git
 ```
 
-Passo 3: Abrir no VS Code e instalar as dependências
+**Passo 3:** Abrir no VS Code e instalar as dependências
 
 Abra o Visual Studio Code.
 
@@ -69,21 +69,21 @@ Vá no menu Arquivo > Abrir Pasta... (File > Open Folder) e selecione a pasta au
 Para abrir o terminal dentro do VS Code, pressione as teclas Ctrl + ` (control + crase) ou vá no menu Terminal > Novo Terminal.
 
 No terminal, digite o comando abaixo e pressione Enter. Isso fará o Node.js baixar todas as bibliotecas necessárias para o projeto funcionar (como o React e o Electron):
-
+```bash
 npm install
+```
 
-
-Passo 4: Escolha como deseja rodar o projeto
+**Passo 4:** Escolha como deseja rodar o projeto
 
 Após a conclusão do npm install, você tem duas opções de execução:
 
-Opção A: Rodar no Navegador (Modo de Desenvolvimento)
+**Opção A:** Rodar no Navegador (Modo de Desenvolvimento)
 
 Ideal para testar ferramentas e fazer alterações no código em tempo real.
 No terminal, digite:
-
+```bash
 npm run dev
-
+```
 
 O terminal exibirá um link (geralmente http://localhost:5173). Segure a tecla Ctrl e clique no link para abrir o aplicativo no seu navegador.
 (Para parar o servidor, clique no terminal e pressione Ctrl + C).
