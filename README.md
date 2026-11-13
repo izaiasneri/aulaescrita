@@ -106,9 +106,7 @@ O terminal exibirá um link (geralmente http://localhost:5173). Segure a tecla C
 <br>
 <br>
 
-<br>
-<br>
-<img src="./src/assets/aulaescrita.png" alt="Imagem do AulaEscrita">
-<br>
-<br>
+# ** Acesse o projeto **
+[Acesse o projeto AulaEscrita](https://endearing-lokum-5a6cb2.netlify.app/)
+
 
