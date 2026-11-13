@@ -100,7 +100,10 @@ O terminal exibirá um link (geralmente http://localhost:5173). Segure a tecla C
 
 <br>
 <br>
+
 ![Imagem do AulaEscrita](./src/assets/aulaescrita.png)
+
 <br>
 <br>
+
 
