@@ -106,7 +106,6 @@ O terminal exibirá um link (geralmente http://localhost:5173). Segure a tecla C
 <br>
 <br>
 
-# ** Acesse o projeto **
-[Acesse o projeto AulaEscrita](https://endearing-lokum-5a6cb2.netlify.app/)
-
+# Acesse o projeto 
+[![Demo Online](https://shields.io)](https://endearing-lokum-5a6cb2.netlify.app)
 
