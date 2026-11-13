@@ -107,5 +107,7 @@ O terminal exibirá um link (geralmente http://localhost:5173). Segure a tecla C
 <br>
 
 # Acesse o projeto 
-[![Demo Online](https://shields.io)](https://endearing-lokum-5a6cb2.netlify.app)
+<a href="https://endearing-lokum-5a6cb2.netlify.app">
+  <img src="https://shields.io" alt="Demo Online">
+</a>
 
